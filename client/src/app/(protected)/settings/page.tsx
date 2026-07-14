@@ -4,7 +4,6 @@ import { useRouter } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import SettingsHeader from "@/components/settings/SettingsHeader";
 import Accountsettings from "@/components/settings/Accountsettings";
-//import SecuritySettings from "@/components/settings/SecuritySettings";
 import NotificationSetting from "@/components/settings/NotificationSetting";
 import AppearanceSetting from "@/components/settings/AppearanceSetting";
 import LogoutCard from "@/components/settings/LogoutCard";

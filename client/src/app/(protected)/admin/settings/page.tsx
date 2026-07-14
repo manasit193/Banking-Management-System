@@ -34,7 +34,7 @@ export default function SettingsPage() {
 
   };
 
-  useEffect(() => {
+  
   const fetchProfile = async () => {
 
     try {
@@ -64,9 +64,13 @@ export default function SettingsPage() {
     }
   
   }; 
-    fetchProfile();
+   useEffect(() => { 
+    const fetchData = async () => {
+      await fetchProfile();
+    };
+    fetchData();
+   }, []);
 
-  }, []);
 
   const handleSave = async () => {
 

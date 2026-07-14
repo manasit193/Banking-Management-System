@@ -25,6 +25,7 @@ type DashboardData = {
     balance: number;
     profileImage: string;
     isVerified: boolean;
+    kycStatus: string;
     createdAt: string;
   };
 
